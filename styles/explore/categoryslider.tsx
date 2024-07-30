@@ -1,0 +1,43 @@
+import { Colors } from '@/constants/Colors'
+import { StyleSheet } from 'react-native'
+
+export const styles = StyleSheet.create({
+    headContainer: {
+        width: '80%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    title: {
+        fontFamily: 'outfit-bold',
+        fontSize:20,
+        paddingLeft:20,
+        paddingTop:10,
+        marginBottom:5
+    },
+    titleView: {
+        color:Colors.PRIMARY, 
+        fontFamily:'outfit-medium', 
+        paddingTop:20,
+        paddingRight:20
+    },
+    flatList:{
+        paddingLeft:20,
+    },
+    image:{
+        width:'80%',
+        height:'25%',
+        borderRadius:15,
+        marginRight:15
+    },
+    itemContainer: {
+        alignItems: 'center',
+        marginRight: 16,
+    },
+    text: {
+        fontSize: 15,
+        textAlign: 'center',
+        fontFamily: 'outfit-medium',
+        marginTop: 10,
+    },
+})

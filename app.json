@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "snowservicepro",
+    "slug": "snowservicepro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "snowservicepro",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/iconsolo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0C4E8C"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.snowsoftwaresolutions.snowservicepro"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-nbzq4pzmfmk2sgkw.us.auth0.com",
+          "clientId": "hrLZ1rFyFHS6QaD5HzVdWiAgARpku4Er"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
